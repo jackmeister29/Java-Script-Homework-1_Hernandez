@@ -74,19 +74,54 @@
   //new variable h for last name
 
 
-  var name = j + k + h;
+  var name = j + ' ' + k  + ' ' + h;
   console.log(name);
   //new variable "name" for name as a whole
 
 
-  var statement = 'My name is' + name;
+  var statement = 'My name is' + ' ' + name;
   console.log(statement);
   //new variable for statement
 
-  var greeting = 'Hi, my name is' + name;
+  var greeting = 'Hi, my name is' + ' ' + name;
   console.log(greeting);
   //new variable for greeting
 
 
+  function squarethis(cat) {
+    var  s = cat * cat;
+    return s;
+  }
+  //function that squares
+
+  var l = squarethis(5);
+  console.log(l);
+  //function called
+
+  var l = squarethis(14);
+  console.log(l);
+  //function called
+
+  var l = squarethis(11);
+  console.log(l);
+  //function called
+
+  function fullname(firstName, middleName, lastName) {
+    var n = firstName + ' ' + middleName + ' ' +lastName;
+    return n;
+  }
+  //function for fullname
+
+  var o = fullname('Veronica' , 'Marie' , 'Gonzalez');
+  console.log(o);
+  //first name
+
+  var o = fullname('Eduardo' , 'Henry' , 'Lopez');
+  console.log(o);
+  //second name
+
+  var o = fullname('Ashley' , 'Elizabeth' , 'Perez');
+  console.log(o);
+  //third name 
 
 </script>
